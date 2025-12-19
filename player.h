@@ -8,6 +8,6 @@ private:
 public:
   Player();
   ~Player();
-}
+};
 
 #endif
