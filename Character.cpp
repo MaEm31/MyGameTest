@@ -6,9 +6,6 @@ Character::Character(std::string name)
     health {100}, maxMana {100}, mana {100}, meleeDmg {5}, magicDmg {10},
     positionX {0}, positionY {0} { 
 }
-//destructor
-Character::~Character() {
-}
 //getters
 std::string Character::getName() {
     return name;

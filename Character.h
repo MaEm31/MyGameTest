@@ -15,7 +15,7 @@ protected:
     int positionY;
 public:
     Character(std::string name);
-    ~Character();
+    ~Character() = default;
     short getLevel();
     std::string getName();
     int getMaxHealth();

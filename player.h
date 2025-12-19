@@ -1,13 +1,14 @@
 #ifndef _PLAYER_H_
 #define _PLAYER_H_
 #include "Character.h"
+#include <cmath>
 class Player : public Character {
 private:
-  int maxXp;
   int xp;
+  int maxXp;
 public:
-  Player();
-  ~Player();
+  Player(std::string name);
+  ~Player() = default;
 };
 
 #endif
