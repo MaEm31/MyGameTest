@@ -11,8 +11,8 @@ protected:
     int mana;
     int meleeDmg;
     int magicDmg;
-    int positionX;
-    int positionY;
+//    int positionX;
+//    int positionY;
 public:
     Character(std::string name);
     ~Character() = default;
@@ -22,9 +22,9 @@ public:
     int getHealth();
     int getMaxMana();
     int getMana();
-    void walk(char direction);
-    //void attack();
-    //void castFireball();
+    void takeDamage(int damage);
+//    void walk(char direction);
+    void attack(Character &target);
 }; 
 
 #endif
